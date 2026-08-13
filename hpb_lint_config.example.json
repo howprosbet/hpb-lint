@@ -1,0 +1,44 @@
+{
+  "version": "0.1",
+  "site_origin": "https://example.com",
+  "site_host": "example.com",
+  "hub_urls": [],
+  "silo_hub_by_name": {},
+  "excluded_source_domains": [],
+  "excluded_source_names": [],
+  "legacy_exact_tokens": [
+    "hpb-panel",
+    "hpb-panels",
+    "hpb-panel-title",
+    "hpb-panel-links",
+    "hpb-panel--partner",
+    "hpb-lede",
+    "hpb-divider",
+    "hpb-divider-mark",
+    "hpb-stat",
+    "hpb-stats",
+    "hpb-stat-number",
+    "hpb-stat-label",
+    "hpb-stat-accent",
+    "hpb-redlines",
+    "hpb-next-card"
+  ],
+  "legacy_family_patterns": [
+    "^hpb-identity(?:-|$)",
+    "^hpb-register(?:-|$)",
+    "^hpb-meta(?:-|$)"
+  ],
+  "semantic_color_denylist": [],
+  "semantic_color_rgba_prefixes": [],
+  "semantic_color_allowed_context_tokens": [],
+  "css_autofit_exception": "",
+  "non_suppressable_rules": [
+    "HPB-TXT-002",
+    "HPB-TXT-003",
+    "HPB-TXT-006"
+  ],
+  "start_here_url": "",
+  "allowed_start_here_schema": "",
+  "excluded_host_tokens": [],
+  "excluded_href_patterns": []
+}
